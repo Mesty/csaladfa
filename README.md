@@ -28,4 +28,5 @@ Szöveges, nyílt fájlformátum, így bármilyen text editorral is bele lehet s
 Bővebben a GEDCOM-ról: https://www.gedcom.org/index.html  
 (Azért is előnyös a GEDCOM formátum, mert mivel szöveges, a verziókezelők is viszik).
 # yEd Graph Editor
-https://www.yworks.com/products/yed
+https://www.yworks.com/products/yed  
+Az aktuális \*.ged forrást valamilyen oknál fogva nem kezeli, nem tudom, miért. Majd egyszer utánajárok.

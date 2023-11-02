@@ -46,8 +46,8 @@
 2 HIDEGRIDLINES Y
 0 GENOMAP 
 1 NAME GenoMap1
-1 ZOOM 30
-1 POSITION 5040,377
+1 ZOOM 135
+1 POSITION 401,628
 1 BOUNDARYRECT -11534,1204,12426,-1197
 0 GENOMAP 
 1 NAME GenoMap2
@@ -3690,6 +3690,10 @@
 1 DEAT Y
 2 CHILDLESS Y
 2 DATE 1939
+2 CAUSE Medical
+3 DESCRIPTION Vérmérgezés
+2 NOTE Foghúzás után vérmérgezést kapott, mert abban az időben még nem volt a
+3 CONC ntibiotikum.
 1 ISDEAD Y
 1 FAMC @fam00047@
 0 @ind00231@ INDI

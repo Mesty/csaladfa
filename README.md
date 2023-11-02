@@ -7,6 +7,8 @@ Elérhetőség: adam.mester87487@gmail.com
 Eddig csak én szerkesztettem a fájlt.  
 Így lehet az ide-oda passzolgatni is.  
 A párhuzamos szerkesztés és a követhetőség megtartása miatt csináltam neki GIT repót, hogy tudjuk rendesen verziókezelni.
+# Workflow
+Kapott módosított forrásfájl esetén a fájllal egy, a szereksztője nevével azonos branchen lecseréljük az eredeti forrásfájlt, majd merge a develop branchre.
 # GenoPro
 A \*.ged kiterjesztésű fájlokat a GenoPro alkalmazás tudja kezelni.  
 Az alkalmazás és annak dokumentációja megtalálható itt: https://genopro.com/  

@@ -47,9 +47,8 @@
 0 GENOMAP 
 1 NAME GenoMap1
 1 ZOOM 85
-1 POSITION 7004,7
+1 POSITION 7144,329
 1 BOUNDARYRECT -12184,1254,12176,-1247
-1 SELECTION ind00270
 0 GENOMAP 
 1 NAME GenoMap2
 0 GENOMAP 
@@ -4293,16 +4292,20 @@
 2 DISPLAY László Bottlik
 2 GIVN László
 2 SURN Bottlik
+1 CONTACTS @contact00093@, @contact00094@
 1 POSITION 6900,400
-2 BOUNDARYRECT 6874,426,6926,353
+2 BOUNDARYRECT 6866,432,6934,353
 1 DISPLAY 
 2 COLORS 
 3 BORDER 
 4 FILL #FFFF80
 1 SEX M
+1 BIRT 
+2 DATE 1952
 1 DEAT 
 2 CHILDLESS Y
 1 FAMC @fam00100@
+1 FAMS @fam00215@
 0 @ind00270@ INDI
 1 NAME Julianna /Bottlik/
 2 DISPLAY Julianna Bottlik
@@ -8253,6 +8256,12 @@
 1 DEAT 
 2 CHILDLESS N
 1 FAMS @fam00214@
+0 @ind00575@ INDI
+1 NAME  //
+1 POSITION 6945,400
+2 BOUNDARYRECT 6919,426,6971,374
+1 SEX F
+1 FAMS @fam00215@
 0 @fam00001@ FAM
 1 POSITION -9405,-650
 2 TOP 
@@ -9146,8 +9155,8 @@
 1 CHIL @ind00136@
 1 CHIL @ind00272@
 1 CHIL @ind00271@
-1 CHIL @ind00270@
 1 CHIL @ind00269@
+1 CHIL @ind00270@
 0 @fam00101@ FAM
 1 POSITION 6740,850
 2 TOP 
@@ -10156,6 +10165,14 @@
 1 HUSB @ind00573@
 1 WIFE @ind00574@
 1 CHIL @ind00171@
+0 @fam00215@ FAM
+1 POSITION 6925,345
+2 TOP 
+3 LEFT 6900,345
+3 RIGHT 6945,345
+1 RELATION Divorce
+1 HUSB @ind00269@
+1 WIFE @ind00575@
 0 @marr00001@ Marriage
 1 TYPE Other
 0 PEDIGREELINK 
@@ -13200,6 +13217,14 @@
 1 PEDIGREELINK Biological
 1 FAMILY @fam00214@
 1 INDIVIDUAL @ind00171@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00215@
+1 INDIVIDUAL @ind00269@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00215@
+1 INDIVIDUAL @ind00575@
 0 @place00064@ PLAC
 1 CATEGORY University
 1 NAME Semmelweis Egyetem
@@ -14403,6 +14428,18 @@
 1 CATEGORY Village
 1 NAME Tótfalu
 1 ZIP 2021
+0 @place00145@ PLAC
+1 CATEGORY Village
+1 NAME Szigetmonostor
+1 CITY Szigetmonostor
+1 STATE Pest
+1 COUNTRY Magyarország
+1 ZIP 2015
+0 @place00146@ PLAC
+1 PARENT Szigetmonostor (Szigetmonostor, Pest, 2015, Magyarország)
+2 _XREF @place00145@
+1 CATEGORY Village
+1 NAME Horány
 0 @edu00001@ Education
 1 PROGRAM Villamosmérnök
 1 INSTITUTION Budapesti Műszaki és Gazdaságtudományi Egyetem
@@ -15717,6 +15754,15 @@
 0 @contact00092@ Contact
 1 PLAC Tótfalu (Tahitótfalu, Pest, 2021, Magyarország)
 2 _XREF @place00144@
+0 @contact00093@ Contact
+1 PLAC Budapest (Budapest, Budapest, Magyarország)
+2 _XREF @place00048@
+1 TYPE PrimaryResidence
+0 @contact00094@ Contact
+1 PLAC Horány (Szigetmonostor, Pest, 2015, Magyarország)
+2 _XREF @place00146@
+1 NOTE nyaraló
+1 TYPE Other
 0 @source00001@ SOUR
 0 EMOTIONALRELATIONSHIP 
 1 EMOTIONALLINK Distant

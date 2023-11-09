@@ -46,8 +46,8 @@
 2 HIDEGRIDLINES Y
 0 GENOMAP 
 1 NAME GenoMap1
-1 ZOOM 90
-1 POSITION 6710,275
+1 ZOOM 85
+1 POSITION 7004,7
 1 BOUNDARYRECT -12184,1254,12176,-1247
 1 SELECTION ind00270
 0 GENOMAP 
@@ -14397,6 +14397,12 @@
 1 CITY Tahitótfalu
 1 STATE Pest
 1 COUNTRY Magyarország
+0 @place00144@ PLAC
+1 PARENT Tahitótfalu (Tahitótfalu, Pest, Magyarország)
+2 _XREF @place00143@
+1 CATEGORY Village
+1 NAME Tótfalu
+1 ZIP 2021
 0 @edu00001@ Education
 1 PROGRAM Villamosmérnök
 1 INSTITUTION Budapesti Műszaki és Gazdaságtudományi Egyetem
@@ -15709,8 +15715,8 @@
 2 _XREF @place00140@
 1 TYPE PrimaryResidence
 0 @contact00092@ Contact
-1 PLAC Tahitótfalu (Tahitótfalu, Pest, Magyarország)
-2 _XREF @place00143@
+1 PLAC Tótfalu (Tahitótfalu, Pest, 2021, Magyarország)
+2 _XREF @place00144@
 0 @source00001@ SOUR
 0 EMOTIONALRELATIONSHIP 
 1 EMOTIONALLINK Distant

@@ -1,5 +1,6 @@
 # csaladfa
-Családfa
+Családfa  
+Közvetlen elérési út a fájlhoz: https://github.com/Mesty/csaladfa/blob/develop/source/csaladfa.ged
 # Szerző
 Név: Mester Ádám  
 Elérhetőség: adam.mester87487@gmail.com

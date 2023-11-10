@@ -23,7 +23,8 @@ De nekem ez nem is hiányzik, hogy a saját formátumát használni tudjam, jó 
 Elvileg van még egy csomó lehetőség, pl. SVG-t, vagy komplett webportált is lehetne generálni belőle, amiket még nem igazán próbáltam, de lehet vele kísérletezni.
 # Workflow
 Kapott módosított forrásfájl esetén a fájllal egy, a szereksztője nevével azonos branchen lecseréljük az eredeti forrásfájlt, majd merge a develop branchre.  
-Commit logokban a következő TAG-eket találtam ki:  
+Commit logokban a következő TAG-eket találtam ki:
+
 Első TAG:
 - [FAM] egy teljes család módosítása, tipikusan akkor használom ha embereket adok hozzá
 - [DAT] személy(ek) adata(i)nak módosítása
@@ -32,8 +33,10 @@ Első TAG:
 - [LOC] a családfához nem kötődő, technikai változások (elsősorban a GIT repositoryhoz köthető, de lehet más is)
 - [OUT] valamilyen kimeneti állományok előállítása/változtatása
 - ([...] ha olyat csináltok benne, ami egyikhez sem köthető, nyugodtan találjatok ki újat, csak írjátok ide!)
+
 Második TAG:
 - [<Családnév>] Melyik családdal kapcsolatos a változtatás
+
 Harmadik TAG:
 - [+] hozzáadás
 - [/] módosítás

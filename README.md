@@ -7,8 +7,6 @@ Elérhetőség: adam.mester87487@gmail.com
 Eddig csak én szerkesztettem a fájlt.  
 Így lehet az ide-oda passzolgatni is.  
 A párhuzamos szerkesztés és a követhetőség megtartása miatt csináltam neki GIT repót, hogy tudjuk rendesen verziókezelni.
-# Workflow
-Kapott módosított forrásfájl esetén a fájllal egy, a szereksztője nevével azonos branchen lecseréljük az eredeti forrásfájlt, majd merge a develop branchre.
 # GenoPro
 A \*.ged kiterjesztésű fájlokat a GenoPro alkalmazás tudja kezelni.  
 Az alkalmazás és annak dokumentációja megtalálható itt: https://genopro.com/  
@@ -23,6 +21,23 @@ Ha szerkesztesz is bele, akkor a Fájl-->Exportálás-->Exportálás GEDCOM form
 Annyi van vele, hogy az alkalmazás, ha ingyenes verzióban használod, akkor nem enged menteni. Viszont exportálni akkor is enged. Bezáráskor megkérdezi, hogy szeretnéd-e menteni a fájlt, ekkor csak a "Nem"-re nyomhatsz, mert különben a fizetős verzió regisztrációja kéne hozzá.  
 De nekem ez nem is hiányzik, hogy a saját formátumát használni tudjam, jó nekem a GEDCOM.  
 Elvileg van még egy csomó lehetőség, pl. SVG-t, vagy komplett webportált is lehetne generálni belőle, amiket még nem igazán próbáltam, de lehet vele kísérletezni.
+# Workflow
+Kapott módosított forrásfájl esetén a fájllal egy, a szereksztője nevével azonos branchen lecseréljük az eredeti forrásfájlt, majd merge a develop branchre.  
+Commit logokban a következő TAG-eket találtam ki:  
+Első TAG:
+- [FAM] egy teljes család módosítása, tipikusan akkor használom ha embereket adok hozzá
+- [DAT] személy(ek) adata(i)nak módosítása
+- [GRA] ábrázolástechnikai módosítások
+- [DOC] a leírásban, dokumentációban történő módosítások
+- [LOC] a családfához nem kötődő, technikai változások (elsősorban a GIT repositoryhoz köthető, de lehet más is)
+- [OUT] valamilyen kimeneti állományok előállítása/változtatása
+- ([...] ha olyat csináltok benne, ami egyikhez sem köthető, nyugodtan találjatok ki újat, csak írjátok ide!)
+Második TAG:
+- [<Családnév>] Melyik családdal kapcsolatos a változtatás
+Harmadik TAG:
+- [+] hozzáadás
+- [/] módosítás
+- [*] hibajavítás
 # GEDCOM
 Szöveges, nyílt fájlformátum, így bármilyen text editorral is bele lehet szerkeszteni, illetve más alkalmazások is ismerik (pl. yEd).  
 Bővebben a GEDCOM-ról: https://www.gedcom.org/index.html  

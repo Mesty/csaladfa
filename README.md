@@ -1,6 +1,7 @@
 # csaladfa
 Családfa  
-Közvetlen elérési út a fájlhoz: https://github.com/Mesty/csaladfa/blob/develop/source/csaladfa.ged
+Közvetlen elérési út a fájlhoz: https://github.com/Mesty/csaladfa/blob/develop/source/csaladfa.ged  
+A szövegfájl fejlécén a jobb oldali gombok között van egy letöltés ikon ("Download raw file"), azzal lehet letölteni.
 # Szerző
 Név: Mester Ádám  
 Elérhetőség: adam.mester87487@gmail.com

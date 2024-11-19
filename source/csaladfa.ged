@@ -43,8 +43,10 @@
 1 ACTIVEGENOMAP GenoMap1
 0 GENOMAP 
 1 NAME GenoMap1
-1 POSITION 10198,-416
+1 ZOOM 110
+1 POSITION 10088,-350
 1 BOUNDARYRECT -13134,1404,13226,-1397
+1 SELECTION ind00175
 0 GENOMAP 
 1 NAME GenoMap2
 0 GENOMAP 
@@ -3047,6 +3049,7 @@
 3 BORDER 
 4 FILL #FFFF80
 1 SEX M
+1 EDUCATIONS @edu00049@
 1 FAMC @fam00062@
 1 FAMS @fam00234@
 0 @ind00175@ INDI
@@ -3061,6 +3064,7 @@
 3 BORDER 
 4 FILL #FFFF80
 1 SEX M
+1 EDUCATIONS @edu00050@
 1 FAMC @fam00062@
 0 @ind00176@ INDI
 1 NAME Gergő /Szalai/
@@ -9518,6 +9522,8 @@
 2 TOP 
 3 LEFT 9900,-150
 3 RIGHT 10000,-150
+1 RELATION Marriage
+1 UNIONS @marr00007@
 1 HUSB @ind00172@
 1 WIFE @ind00170@
 0 @fam00062@ FAM
@@ -11013,6 +11019,8 @@
 0 @marr00006@ Marriage
 1 TYPE CommitmentCeremony
 1 DATE 21 Jan 2020
+0 @marr00007@ Marriage
+1 DATE 18 Jul 2015
 0 PEDIGREELINK 
 1 PEDIGREELINK Parent
 1 FAMILY @fam00001@
@@ -15578,6 +15586,17 @@
 1 STATE Fejér
 1 COUNTRY Magyarország
 1 ZIP 2473
+0 @place00154@ PLAC
+1 CATEGORY School
+1 NAME Kodály Zoltán Zeneművészeti Szakgimnázium és Zeneiskola – AMI
+1 STREET Vár utca 1.
+1 CITY Debrecen
+1 STATE Hajdú-Bihar
+1 COUNTRY Magyarország
+1 COUNTY Magyarország
+1 ZIP 4024
+1 LATITUDE 47.53185262976292
+1 LONGITUDE 21.627624369134153
 0 @edu00001@ Education
 1 PROGRAM Villamosmérnök
 1 INSTITUTION Budapesti Műszaki és Gazdaságtudományi Egyetem
@@ -16069,6 +16088,24 @@
 2 CONC regélyesi út 88-90, Székesfehérvár, Fejér, 8000, Magyarország)
 2 _XREF @place00151@
 1 DATEEND 1986
+0 @edu00049@ Education
+1 PROGRAM Szakközépiskolai érettségi
+1 INSTITUTION Debreceni Zenede
+1 PLAC Kodály Zoltán Zeneművészeti Szakgimnázium és Zeneiskola – AMI (Vár utc
+2 CONC a 1., Debrecen, Magyarország, Hajdú-Bihar, 4024, Magyarország)
+2 _XREF @place00154@
+1 LEVEL Secondary / Junior
+2 YEARS 8
+1 ACHIEVEMENT passed
+1 TERMINATION Graduation
+1 DATESTART 2002
+1 DATEEND 2006
+1 STUDYTYPE Full
+0 @edu00050@ Education
+1 INSTITUTION Petzelt József Technikum és Szakképző Iskola
+1 PLAC Váci Szakképzési Centrum Petzelt József Technikum és Szakképző Iskola 
+2 CONC (Római Sánc köz 1., Szentendre, Pest, 2000, Magyarország)
+2 _XREF @place00085@
 0 @med00001@ Medical
 1 SYMPTOM Short of Breath
 1 DIAGNOSIS Szívinfarktus

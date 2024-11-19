@@ -43,9 +43,9 @@
 1 ACTIVEGENOMAP GenoMap1
 0 GENOMAP 
 1 NAME GenoMap1
-1 POSITION 7916,214
+1 POSITION -4495,-786
 1 BOUNDARYRECT -13134,1404,13326,-1397
-1 SELECTION ind00624
+1 SELECTION fam00110
 0 GENOMAP 
 1 NAME GenoMap2
 0 GENOMAP 
@@ -4259,8 +4259,8 @@
 2 DISPLAY Erzsébet Tóth
 2 GIVN Erzsébet
 2 SURN Tóth
-1 POSITION 8250,950
-2 BOUNDARYRECT 8216,982,8284,903
+1 POSITION 8750,950
+2 BOUNDARYRECT 8716,982,8784,903
 1 DISPLAY 
 2 COLORS 
 3 BORDER 
@@ -4290,8 +4290,8 @@
 1 FAMS @fam00101@
 0 @ind00268@ INDI
 1 NAME  //
-1 POSITION 8250,1050
-2 BOUNDARYRECT 8224,1076,8276,1024
+1 POSITION 8750,1050
+2 BOUNDARYRECT 8724,1076,8776,1024
 1 DISPLAY 
 2 COLORS 
 3 BORDER 
@@ -4304,8 +4304,8 @@
 2 GIVN László
 2 SURN Bottlik
 1 CONTACTS @contact00075@, @contact00094@
-1 POSITION 8150,550
-2 BOUNDARYRECT 8116,582,8184,503
+1 POSITION 8650,550
+2 BOUNDARYRECT 8616,582,8684,503
 1 DISPLAY 
 2 COLORS 
 3 BORDER 
@@ -8320,8 +8320,8 @@
 1 FAMS @fam00214@
 0 @ind00575@ INDI
 1 NAME  //
-1 POSITION 8250,550
-2 BOUNDARYRECT 8224,576,8276,524
+1 POSITION 8750,550
+2 BOUNDARYRECT 8724,576,8776,524
 1 DISPLAY 
 2 COLORS 
 3 BORDER 
@@ -8960,8 +8960,8 @@
 2 DISPLAY Krisztián Bottlik
 2 GIVN Krisztián
 2 SURN Bottlik
-1 POSITION 7950,350
-2 BOUNDARYRECT 7921,376,7979,303
+1 POSITION 7950,250
+2 BOUNDARYRECT 7921,276,7979,203
 1 SEX M
 1 FAMC @fam00236@
 1 FAMS @fam00237@
@@ -8970,19 +8970,119 @@
 2 DISPLAY Szabina Szilágyi
 2 GIVN Szabina
 2 SURN Szilágyi
-1 POSITION 8050,350
-2 BOUNDARYRECT 8022,376,8077,303
+1 CONTACTS @contact00105@
+1 POSITION 8150,250
+2 BOUNDARYRECT 8116,282,8184,203
 1 SEX F
-1 OCCUPATIONS @occu00047@, @occu00048@, @occu00049@, @occu00050@
+1 BIRT 
+2 DATE 5 Aug 1987
+2 PLAC Budapest (Budapest, Budapest, Magyarország)
+3 _XREF @place00048@
+1 OCCUPATIONS @occu00047@, @occu00048@, @occu00049@, @occu00050@, @occu00051@
+1 EDUCATIONS @edu00051@, @edu00052@, @edu00053@, @edu00054@
 1 FAMS @fam00237@
+1 FAMC @fam00238@
 0 @ind00625@ INDI
 1 NAME  //
-1 POSITION 8000,250
-2 BOUNDARYRECT 7966,282,8034,224
+1 POSITION 8050,150
+2 BOUNDARYRECT 8016,182,8084,124
 1 SEX M
 1 BIRT 
 2 DATE 4 Apr 2022
 1 FAMC @fam00237@
+0 @ind00626@ INDI
+1 NAME  /Szilágyi/
+2 DISPLAY Szilágyi
+2 SURN Szilágyi
+1 POSITION 8150,450
+2 BOUNDARYRECT 8123,476,8176,417
+1 SEX M
+1 FAMS @fam00238@
+1 FAMC @fam00240@
+0 @ind00627@ INDI
+1 NAME  /Simon/
+2 DISPLAY Simon
+2 SURN Simon
+1 POSITION 8450,450
+2 BOUNDARYRECT 8424,476,8476,417
+1 SEX F
+1 FAMS @fam00238@
+1 FAMC @fam00239@
+0 @ind00628@ INDI
+1 NAME Szandra /Szilágyi/
+2 DISPLAY Szandra Szilágyi
+2 GIVN Szandra
+2 SURN Szilágyi
+1 POSITION 8300,250
+2 BOUNDARYRECT 8271,276,8328,203
+1 SEX F
+1 FAMC @fam00238@
+0 @ind00629@ INDI
+1 NAME Emese /Szilágyi/
+2 DISPLAY Emese Szilágyi
+2 GIVN Emese
+2 SURN Szilágyi
+1 POSITION 8450,250
+2 BOUNDARYRECT 8423,276,8476,203
+1 SEX F
+1 FAMC @fam00238@
+0 @ind00630@ INDI
+1 NAME  //
+1 POSITION 8450,550
+2 BOUNDARYRECT 8424,576,8476,524
+1 SEX M
+1 FAMS @fam00239@
+0 @ind00631@ INDI
+1 NAME  //
+1 POSITION 8550,550
+2 BOUNDARYRECT 8524,576,8576,524
+1 SEX F
+1 FAMS @fam00239@
+0 @ind00632@ INDI
+1 NAME István /Simon/
+2 DISPLAY István Simon
+2 GIVN István
+2 SURN Simon
+1 POSITION 8550,450
+2 BOUNDARYRECT 8524,476,8576,403
+1 SEX M
+1 FAMC @fam00239@
+0 @ind00633@ INDI
+1 NAME  //
+1 POSITION 8150,550
+2 BOUNDARYRECT 8124,576,8176,524
+1 SEX M
+1 FAMS @fam00240@
+0 @ind00634@ INDI
+1 NAME  //
+1 POSITION 8250,550
+2 BOUNDARYRECT 8224,576,8276,524
+1 SEX F
+1 FAMS @fam00240@
+0 @ind00635@ INDI
+1 NAME  /Szilágyi/
+2 DISPLAY Szilágyi
+2 SURN Szilágyi
+1 POSITION 8250,450
+2 BOUNDARYRECT 8223,476,8276,417
+1 SEX M
+1 FAMC @fam00240@
+1 FAMS @fam00241@
+0 @ind00636@ INDI
+1 NAME  //
+1 POSITION 8350,450
+2 BOUNDARYRECT 8324,476,8376,424
+1 SEX F
+1 FAMS @fam00241@
+0 @ind00637@ INDI
+1 NAME Szeréna /Szilágyi/
+2 DISPLAY Szeréna Szilágyi
+2 GIVN Szeréna
+2 SURN Szilágyi
+1 POSITION 8300,350
+2 BOUNDARYRECT 8271,376,8328,303
+1 SEX F
+1 FAMC @fam00241@
 0 @fam00001@ FAM
 1 POSITION -10355,-500
 2 TOP 
@@ -9869,10 +9969,10 @@
 1 CHIL @ind00263@
 1 CHIL @ind00264@
 0 @fam00100@ FAM
-1 POSITION 8060,700
+1 POSITION 8560,700
 2 TOP 
 3 LEFT 7650,700
-3 RIGHT 8250,700
+3 RIGHT 8750,700
 1 RELATION Marriage
 1 HUSB @ind00265@
 1 WIFE @ind00266@
@@ -9885,7 +9985,7 @@
 1 POSITION 7690,1000
 2 TOP 
 3 LEFT 7650,1000
-3 RIGHT 8250,1000
+3 RIGHT 8750,1000
 1 HUSB @ind00267@
 1 WIFE @ind00268@
 1 CHIL @ind00265@
@@ -9964,7 +10064,8 @@
 2 TOP 
 3 LEFT -5000,-950
 3 RIGHT -4550,-950
-1 RELATION Cohabitation
+1 RELATION Engagement
+1 UNIONS @marr00012@
 1 HUSB @ind00140@
 1 WIFE @ind00297@
 0 @fam00111@ FAM
@@ -10891,10 +10992,10 @@
 1 WIFE @ind00574@
 1 CHIL @ind00171@
 0 @fam00215@ FAM
-1 POSITION 8175,500
+1 POSITION 8675,500
 2 TOP 
-3 LEFT 8150,500
-3 RIGHT 8250,500
+3 LEFT 8650,500
+3 RIGHT 8750,500
 1 FAMILYLINE NoMoreChildren
 1 RELATION Divorce
 1 NOTE Spekuláció szerint gyermek miatt váltak el, terhes lett, de elvetélt, 
@@ -11082,23 +11183,59 @@
 1 CHIL @ind00621@
 1 CHIL @ind00620@
 0 @fam00236@ FAM
-1 POSITION 7950,400
-2 TOP 
-3 LEFT 7950,400
-3 RIGHT 8050,400
-1 HUSB @ind00274@
-1 WIFE @ind00622@
-1 CHIL @ind00623@
-0 @fam00237@ FAM
 1 POSITION 7950,300
 2 TOP 
 3 LEFT 7950,300
 3 RIGHT 8050,300
+1 HUSB @ind00274@
+1 WIFE @ind00622@
+1 CHIL @ind00623@
+0 @fam00237@ FAM
+1 POSITION 8050,200
+2 TOP 
+3 LEFT 7950,200
+3 RIGHT 8150,200
 1 RELATION Marriage
-1 UNIONS @marr00010@
+1 UNIONS @marr00010@, @marr00011@
 1 HUSB @ind00623@
 1 WIFE @ind00624@
 1 CHIL @ind00625@
+0 @fam00238@ FAM
+1 POSITION 8300,300
+2 TOP 
+3 LEFT 8150,300
+3 RIGHT 8450,300
+1 HUSB @ind00626@
+1 WIFE @ind00627@
+1 CHIL @ind00624@
+1 CHIL @ind00628@
+1 CHIL @ind00629@
+0 @fam00239@ FAM
+1 POSITION 8500,500
+2 TOP 
+3 LEFT 8450,500
+3 RIGHT 8550,500
+1 HUSB @ind00630@
+1 WIFE @ind00631@
+1 CHIL @ind00627@
+1 CHIL @ind00632@
+0 @fam00240@ FAM
+1 POSITION 8200,500
+2 TOP 
+3 LEFT 8150,500
+3 RIGHT 8250,500
+1 HUSB @ind00633@
+1 WIFE @ind00634@
+1 CHIL @ind00626@
+1 CHIL @ind00635@
+0 @fam00241@ FAM
+1 POSITION 8250,400
+2 TOP 
+3 LEFT 8250,400
+3 RIGHT 8350,400
+1 HUSB @ind00635@
+1 WIFE @ind00636@
+1 CHIL @ind00637@
 0 @marr00001@ Marriage
 1 TYPE Other
 0 @marr00002@ Marriage
@@ -11124,6 +11261,15 @@
 1 DATE 2 Jul 2021
 0 @marr00010@ Marriage
 1 DATE 14 Aug 2020
+0 @marr00011@ Marriage
+1 TYPE CommitmentCeremony
+1 DATE 23 Jan 2020
+0 @marr00012@ Marriage
+1 TYPE CommitmentCeremony
+1 DATE 2024
+1 PLAC Keszthely Móló (Kikötő, Keszthely, Magyarország, Zala, 8360, Magyarors
+2 CONC zág)
+2 _XREF @place00162@
 0 PEDIGREELINK 
 1 PEDIGREELINK Parent
 1 FAMILY @fam00001@
@@ -14462,6 +14608,70 @@
 1 PEDIGREELINK Biological
 1 FAMILY @fam00237@
 1 INDIVIDUAL @ind00625@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00238@
+1 INDIVIDUAL @ind00626@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00238@
+1 INDIVIDUAL @ind00627@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00238@
+1 INDIVIDUAL @ind00624@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00238@
+1 INDIVIDUAL @ind00628@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00238@
+1 INDIVIDUAL @ind00629@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00239@
+1 INDIVIDUAL @ind00630@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00239@
+1 INDIVIDUAL @ind00631@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00239@
+1 INDIVIDUAL @ind00627@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00239@
+1 INDIVIDUAL @ind00632@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00240@
+1 INDIVIDUAL @ind00633@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00240@
+1 INDIVIDUAL @ind00634@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00240@
+1 INDIVIDUAL @ind00626@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00240@
+1 INDIVIDUAL @ind00635@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00241@
+1 INDIVIDUAL @ind00635@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00241@
+1 INDIVIDUAL @ind00636@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00241@
+1 INDIVIDUAL @ind00637@
 0 @place00064@ PLAC
 1 CATEGORY University
 1 NAME Semmelweis Egyetem
@@ -15768,6 +15978,58 @@
 1 NAME Szigetgyöngye SE
 1 LATITUDE 47.68588286837472
 1 LONGITUDE 19.09984142740429
+0 @place00158@ PLAC
+1 PARENT Budapest (Budapest, Budapest, Magyarország)
+2 _XREF @place00048@
+1 CATEGORY University
+1 NAME Nemzeti Közszolgálati Egyetem
+1 STREET Ludovika tér 2.
+1 COUNTY Magyarország
+1 ZIP 1083
+1 LATITUDE 47.48178506482747
+1 LONGITUDE 19.08537332741585
+0 @place00159@ PLAC
+1 PARENT Nemzeti Közszolgálati Egyetem (Ludovika tér 2., Budapest, Magyarország
+2 CONC , Budapest, 1083, Magyarország)
+2 _XREF @place00158@
+1 CATEGORY University
+1 NAME Nemzeti Közszolgálati Egyetem Államtudományi és Nemzetközi Tanulmányok
+2 CONC  Kar
+1 STREET Üllői út 82.
+1 LATITUDE 47.48033604367436
+1 LONGITUDE 19.087840715985198
+0 @place00160@ PLAC
+1 PARENT Budapest (Budapest, Budapest, Magyarország)
+2 _XREF @place00048@
+1 CATEGORY School
+1 NAME Atalanta Gimnázium
+1 STREET Jázmin utca 6-10.
+1 COUNTY Magyarország
+1 ZIP 1083
+1 LATITUDE 47.485723764895624
+1 LONGITUDE 19.080827527415966
+0 @place00161@ PLAC
+1 CATEGORY School
+1 NAME Móricz Zsigmond Gimnázium
+1 STREET Kálvária út 16-a.
+1 CITY Szentendre
+1 STATE Pest
+1 COUNTRY Magyarország
+1 COUNTY Magyarország
+1 ZIP 2000
+1 LATITUDE 47.6683118196321
+1 LONGITUDE 19.063208427432343
+0 @place00162@ PLAC
+1 CATEGORY TransportationFacility
+1 NAME Keszthely Móló
+1 STREET Kikötő
+1 CITY Keszthely
+1 STATE Zala
+1 COUNTRY Magyarország
+1 COUNTY Magyarország
+1 ZIP 8360
+1 LATITUDE 46.75804754826664
+1 LONGITUDE 17.255900257996153
 0 @edu00001@ Education
 1 PROGRAM Villamosmérnök
 1 INSTITUTION Budapesti Műszaki és Gazdaságtudományi Egyetem
@@ -16277,6 +16539,52 @@
 1 PLAC Váci Szakképzési Centrum Petzelt József Technikum és Szakképző Iskola 
 2 CONC (Római Sánc köz 1., Szentendre, Pest, 2000, Magyarország)
 2 _XREF @place00085@
+0 @edu00051@ Education
+1 PROGRAM Választási igazgatás
+1 INSTITUTION Nemzeti Közszolgálati Egyetem Közigazgatási Továbbképzési Intézet
+1 PLAC Nemzeti Közszolgálati Egyetem (Ludovika tér 2., Budapest, Magyarország
+2 CONC , Budapest, 1083, Magyarország)
+2 _XREF @place00158@
+1 LEVEL Professional / Technical
+2 YEARS 16
+1 TERMINATION StillAttending
+1 DATESTART 21 Aug 2024
+0 @edu00052@ Education
+1 PROGRAM Közigazgatás-szervező
+1 INSTITUTION Nemzeti Közszolgálati Egyetem Államtudományi és Nemzetközi Tanulmányok
+2 CONC  Kar
+1 PLAC Nemzeti Közszolgálati Egyetem Államtudományi és Nemzetközi Tanulmányok
+2 CONC  Kar (Üllői út 82., Budapest, Magyarország, Budapest, 1083, Magyarorsz
+2 CONC ág)
+2 _XREF @place00159@
+1 LEVEL Undergraduate / Bachelors
+2 YEARS 15
+1 ACHIEVEMENT passed
+1 TERMINATION Graduation
+1 DATEEND 2014
+1 DURATION 3
+0 @edu00053@ Education
+1 PROGRAM irodavezető
+1 INSTITUTION Atalanta Oktatási Központ
+1 PLAC Atalanta Gimnázium (Jázmin utca 6-10., Budapest, Magyarország, Budapes
+2 CONC t, 1083, Magyarország)
+2 _XREF @place00160@
+1 LEVEL Professional / Technical
+2 YEARS 13
+1 DATESTART 2006
+1 DATEEND 2007
+0 @edu00054@ Education
+1 PROGRAM Gimnáziumi érettségi
+1 INSTITUTION Móricz Zsigmond Gimnázium
+1 PLAC Móricz Zsigmond Gimnázium (Kálvária út 16-a., Szentendre, Magyarország
+2 CONC , Pest, 2000, Magyarország)
+2 _XREF @place00161@
+1 LEVEL High School
+2 YEARS 12
+1 TERMINATION Graduation
+1 DATEEND 15 Jun 2006
+1 STUDYTYPE Full
+1 NOTE angol
 0 @med00001@ Medical
 1 SYMPTOM Short of Breath
 1 DIAGNOSIS Szívinfarktus
@@ -16713,6 +17021,7 @@
 1 PLAC Polgármesteri Hivatal (Fő utca 26., Szigetmonostor, Magyarország, Pest
 2 CONC , 2015, Magyarország)
 2 _XREF @place00156@
+1 DATESTART 1 Jul 2024
 0 @occu00048@ Occupation
 1 TITL anyakönvvezető
 1 COMPANY Szigetmonostor Község Önkormányzata
@@ -16720,6 +17029,7 @@
 1 PLAC Polgármesteri Hivatal (Fő utca 26., Szigetmonostor, Magyarország, Pest
 2 CONC , 2015, Magyarország)
 2 _XREF @place00156@
+1 DATESTART 10 Dec 2007
 0 @occu00049@ Occupation
 1 TITL aljegyző
 1 COMPANY Szigetmonostor Község Önkormányzata
@@ -16727,6 +17037,7 @@
 1 PLAC Polgármesteri Hivatal (Fő utca 26., Szigetmonostor, Magyarország, Pest
 2 CONC , 2015, Magyarország)
 2 _XREF @place00156@
+1 DATESTART 10 Dec 2007
 0 @occu00050@ Occupation
 1 TITL ügyintéző
 1 COMPANY Szigetgyöngye SE
@@ -16734,6 +17045,15 @@
 1 PLAC Szigetgyöngye SE (Szigetmonostor, Magyarország, Pest, 2015, Magyarorsz
 2 CONC ág)
 2 _XREF @place00157@
+1 DATESTART 2000
+0 @occu00051@ Occupation
+1 TITL elnök-helyettes
+1 COMPANY Szigetgyöngye SE
+1 INDUSTRY Tourism
+1 PLAC Szigetgyöngye SE (Szigetmonostor, Magyarország, Pest, 2015, Magyarorsz
+2 CONC ág)
+2 _XREF @place00157@
+1 DATESTART 2000
 0 @contact00001@ Contact
 1 MOBILE +36209519180
 1 EMAIL adam.mester87487@gmail.com
@@ -17183,6 +17503,11 @@
 0 @contact00104@ Contact
 1 PLAC Surány (Pócsmegyer, Magyarország, Pest, 2017, Magyarország)
 2 _XREF @place00155@
+0 @contact00105@ Contact
+1 PLAC Szigetmonostor (Szigetmonostor, Magyarország, Pest, 2015, Magyarország
+2 CONC )
+2 _XREF @place00145@
+1 DATESTART 2019
 0 @source00001@ SOUR
 0 EMOTIONALRELATIONSHIP 
 1 EMOTIONALLINK Manipulative

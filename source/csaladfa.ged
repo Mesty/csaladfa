@@ -43,9 +43,9 @@
 1 ACTIVEGENOMAP GenoMap1
 0 GENOMAP 
 1 NAME GenoMap1
-1 ZOOM 120
-1 POSITION 10139,-332
+1 POSITION 7916,214
 1 BOUNDARYRECT -13134,1404,13326,-1397
+1 SELECTION ind00624
 0 GENOMAP 
 1 NAME GenoMap2
 0 GENOMAP 
@@ -4390,14 +4390,15 @@
 2 DISPLAY Krisztián Bottlik
 2 GIVN Krisztián
 2 SURN Bottlik
-1 POSITION 8000,450
-2 BOUNDARYRECT 7971,476,8029,403
+1 POSITION 7950,450
+2 BOUNDARYRECT 7921,476,7979,403
 1 DISPLAY 
 2 COLORS 
 3 BORDER 
 4 FILL #FFFF80
 1 SEX M
 1 FAMC @fam00102@
+1 FAMS @fam00236@
 0 @ind00275@ INDI
 1 NAME András /Rácz/
 2 DISPLAY András Rácz
@@ -8948,6 +8949,40 @@
 2 BOUNDARYRECT 10014,-424,10085,-483
 1 SEX F
 1 FAMC @fam00235@
+0 @ind00622@ INDI
+1 NAME  //
+1 POSITION 8050,450
+2 BOUNDARYRECT 8024,476,8076,424
+1 SEX F
+1 FAMS @fam00236@
+0 @ind00623@ INDI
+1 NAME Krisztián /Bottlik/
+2 DISPLAY Krisztián Bottlik
+2 GIVN Krisztián
+2 SURN Bottlik
+1 POSITION 7950,350
+2 BOUNDARYRECT 7921,376,7979,303
+1 SEX M
+1 FAMC @fam00236@
+1 FAMS @fam00237@
+0 @ind00624@ INDI
+1 NAME Szabina /Szilágyi/
+2 DISPLAY Szabina Szilágyi
+2 GIVN Szabina
+2 SURN Szilágyi
+1 POSITION 8050,350
+2 BOUNDARYRECT 8022,376,8077,303
+1 SEX F
+1 OCCUPATIONS @occu00047@, @occu00048@, @occu00049@, @occu00050@
+1 FAMS @fam00237@
+0 @ind00625@ INDI
+1 NAME  //
+1 POSITION 8000,250
+2 BOUNDARYRECT 7966,282,8034,224
+1 SEX M
+1 BIRT 
+2 DATE 4 Apr 2022
+1 FAMC @fam00237@
 0 @fam00001@ FAM
 1 POSITION -10355,-500
 2 TOP 
@@ -11046,6 +11081,24 @@
 1 WIFE @ind00619@
 1 CHIL @ind00621@
 1 CHIL @ind00620@
+0 @fam00236@ FAM
+1 POSITION 7950,400
+2 TOP 
+3 LEFT 7950,400
+3 RIGHT 8050,400
+1 HUSB @ind00274@
+1 WIFE @ind00622@
+1 CHIL @ind00623@
+0 @fam00237@ FAM
+1 POSITION 7950,300
+2 TOP 
+3 LEFT 7950,300
+3 RIGHT 8050,300
+1 RELATION Marriage
+1 UNIONS @marr00010@
+1 HUSB @ind00623@
+1 WIFE @ind00624@
+1 CHIL @ind00625@
 0 @marr00001@ Marriage
 1 TYPE Other
 0 @marr00002@ Marriage
@@ -11069,6 +11122,8 @@
 1 DATE 13 Jul 2017
 0 @marr00009@ Marriage
 1 DATE 2 Jul 2021
+0 @marr00010@ Marriage
+1 DATE 14 Aug 2020
 0 PEDIGREELINK 
 1 PEDIGREELINK Parent
 1 FAMILY @fam00001@
@@ -14383,6 +14438,30 @@
 1 PEDIGREELINK Biological
 1 FAMILY @fam00235@
 1 INDIVIDUAL @ind00621@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00236@
+1 INDIVIDUAL @ind00274@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00236@
+1 INDIVIDUAL @ind00622@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00236@
+1 INDIVIDUAL @ind00623@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00237@
+1 INDIVIDUAL @ind00623@
+0 PEDIGREELINK 
+1 PEDIGREELINK Parent
+1 FAMILY @fam00237@
+1 INDIVIDUAL @ind00624@
+0 PEDIGREELINK 
+1 PEDIGREELINK Biological
+1 FAMILY @fam00237@
+1 INDIVIDUAL @ind00625@
 0 @place00064@ PLAC
 1 CATEGORY University
 1 NAME Semmelweis Egyetem
@@ -15592,9 +15671,11 @@
 1 CITY Szigetmonostor
 1 STATE Pest
 1 COUNTRY Magyarország
+1 COUNTY Magyarország
 1 ZIP 2015
 0 @place00146@ PLAC
-1 PARENT Szigetmonostor (Szigetmonostor, Pest, 2015, Magyarország)
+1 PARENT Szigetmonostor (Szigetmonostor, Magyarország, Pest, 2015, Magyarország
+2 CONC )
 2 _XREF @place00145@
 1 CATEGORY Village
 1 NAME Horány
@@ -15662,12 +15743,31 @@
 1 LATITUDE 47.53185262976292
 1 LONGITUDE 21.627624369134153
 0 @place00155@ PLAC
+1 CATEGORY Village
 1 NAME Surány
 1 CITY Pócsmegyer
 1 STATE Pest
 1 COUNTRY Magyarország
 1 COUNTY Magyarország
 1 ZIP 2017
+0 @place00156@ PLAC
+1 PARENT Szigetmonostor (Szigetmonostor, Magyarország, Pest, 2015, Magyarország
+2 CONC )
+2 _XREF @place00145@
+1 CATEGORY Municipality
+1 NAME Polgármesteri Hivatal
+1 STREET Fő utca 26.
+1 COUNTY Magyarország
+1 LATITUDE 47.6898641674641
+1 LONGITUDE 19.100314758738428
+0 @place00157@ PLAC
+1 PARENT Szigetmonostor (Szigetmonostor, Magyarország, Pest, 2015, Magyarország
+2 CONC )
+2 _XREF @place00145@
+1 CATEGORY Domicile
+1 NAME Szigetgyöngye SE
+1 LATITUDE 47.68588286837472
+1 LONGITUDE 19.09984142740429
 0 @edu00001@ Education
 1 PROGRAM Villamosmérnök
 1 INSTITUTION Budapesti Műszaki és Gazdaságtudományi Egyetem
@@ -16606,6 +16706,34 @@
 2 CONT Fagycsap csere, csaptelep cserék, wc és mosdó csere
 2 CONT Fűtésrendszer karbantartása, Fűtésrendszer vegyszeres mosása
 2 CONT Minden ami lefolyó, vízvezeték és fűtésszerelés
+0 @occu00047@ Occupation
+1 TITL jegyző
+1 COMPANY Szigetmonostor Község Önkormányzata
+1 INDUSTRY PublicAdministration
+1 PLAC Polgármesteri Hivatal (Fő utca 26., Szigetmonostor, Magyarország, Pest
+2 CONC , 2015, Magyarország)
+2 _XREF @place00156@
+0 @occu00048@ Occupation
+1 TITL anyakönvvezető
+1 COMPANY Szigetmonostor Község Önkormányzata
+1 INDUSTRY PublicAdministration
+1 PLAC Polgármesteri Hivatal (Fő utca 26., Szigetmonostor, Magyarország, Pest
+2 CONC , 2015, Magyarország)
+2 _XREF @place00156@
+0 @occu00049@ Occupation
+1 TITL aljegyző
+1 COMPANY Szigetmonostor Község Önkormányzata
+1 INDUSTRY PublicAdministration
+1 PLAC Polgármesteri Hivatal (Fő utca 26., Szigetmonostor, Magyarország, Pest
+2 CONC , 2015, Magyarország)
+2 _XREF @place00156@
+0 @occu00050@ Occupation
+1 TITL ügyintéző
+1 COMPANY Szigetgyöngye SE
+1 INDUSTRY Tourism
+1 PLAC Szigetgyöngye SE (Szigetmonostor, Magyarország, Pest, 2015, Magyarorsz
+2 CONC ág)
+2 _XREF @place00157@
 0 @contact00001@ Contact
 1 MOBILE +36209519180
 1 EMAIL adam.mester87487@gmail.com
@@ -17027,7 +17155,7 @@
 1 PLAC Tótfalu (Tahitótfalu, Pest, 2021, Magyarország)
 2 _XREF @place00144@
 0 @contact00094@ Contact
-1 PLAC Horány (Szigetmonostor, Pest, 2015, Magyarország)
+1 PLAC Horány (Szigetmonostor, Magyarország, Pest, 2015, Magyarország)
 2 _XREF @place00146@
 1 NOTE nyaraló
 1 TYPE Other

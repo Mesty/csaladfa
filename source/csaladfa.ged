@@ -4,7 +4,7 @@
 2 VERS 3.1.0.1
 2 CORP GenoPro
 2 ADDR http://www.genopro.com
-1 DATE 19 NOV 2024
+1 DATE 20 NOV 2024
 1 CHAR UTF-8
 1 GEDC
 2 VERS 5.5
@@ -43,10 +43,10 @@
 1 ACTIVEGENOMAP GenoMap1
 0 GENOMAP 
 1 NAME GenoMap1
-1 ZOOM 115
-1 POSITION 8692,508
+1 ZOOM 90
+1 POSITION 8877,597
 1 BOUNDARYRECT -13134,1504,13326,-1397
-1 SELECTION ind00678
+1 SELECTION ind00671
 0 GENOMAP 
 1 NAME GenoMap2
 0 GENOMAP 
@@ -9435,7 +9435,7 @@
 2 DISPLAY Csaba Csantavéri
 2 GIVN Csaba
 2 SURN Csantavéri
-1 CONTACTS @contact00113@
+1 CONTACTS @contact00108@
 1 POSITION 9050,550
 2 BOUNDARYRECT 9016,576,9084,503
 1 SEX M
@@ -9449,7 +9449,7 @@
 2 DISPLAY Roland Müller
 2 GIVN Roland
 2 SURN Müller
-1 CONTACTS @contact00114@
+1 CONTACTS @contact00108@
 1 POSITION 8850,550
 2 BOUNDARYRECT 8824,576,8876,503
 1 SEX M
@@ -16889,7 +16889,7 @@
 1 CATEGORY University
 1 NAME Miskolci Egyetem Egészségrudományi Kar
 1 LATITUDE 48.07754750104963
-1 LONGITUDE 48.07754750104963, 20.761492116150354
+1 LONGITUDE 20.761492116150354
 0 @place00175@ PLAC
 1 PARENT Miskolc (Miskolc, Magyarország, Borsod-Abaúj-Zemplén, Magyarország)
 2 _XREF @place00168@
@@ -17527,6 +17527,7 @@
 2 CONC  Borsod-Abaúj-Zemplén, 3525, Magyarország)
 2 _XREF @place00169@
 0 @edu00061@ Education
+1 PROGRAM Gimnáziumi érettségi
 1 INSTITUTION Diósgyőri Gimnázium
 1 PLAC Diósgyőri Gimnázium (Kiss tábornok út 42., Miskolc, Magyarország, Bors
 2 CONC od-Abaúj-Zemplén, 3534, Magyarország)
@@ -17567,6 +17568,7 @@
 1 DATEEND 2013
 1 NOTE Egészségturizmus szervező szakirány
 0 @edu00066@ Education
+1 PROGRAM Gimnáziumi érettségi
 1 INSTITUTION Diósgyőri Gimnázium
 1 PLAC Diósgyőri Gimnázium (Kiss tábornok út 42., Miskolc, Magyarország, Bors
 2 CONC od-Abaúj-Zemplén, 3534, Magyarország)
@@ -18582,12 +18584,6 @@
 2 _XREF @place00177@
 1 DATESTART Jul 2016
 1 DATEEND Aug 2017
-0 @contact00113@ Contact
-1 PLAC Miskolc (Miskolc, Magyarország, Borsod-Abaúj-Zemplén, Magyarország)
-2 _XREF @place00168@
-0 @contact00114@ Contact
-1 PLAC Miskolc (Miskolc, Magyarország, Borsod-Abaúj-Zemplén, Magyarország)
-2 _XREF @place00168@
 0 @source00001@ SOUR
 0 EMOTIONALRELATIONSHIP 
 1 EMOTIONALLINK Manipulative
@@ -18651,19 +18647,6 @@
 2 COLOR 
 3 TEXT #000000
 3 FILL #FFFFFF
-3 BORDER Transparent
-0 LABEL 
-1 POSITION 9375,200
-2 Z 165
-2 SIZE XXXX
-2 WIDTH 300
-2 HEIGHT 150
-1 TEXT Bottlik
-2 PADDING 0
-1 DISPLAY 
-2 COLOR 
-3 TEXT #000000
-3 FILL Transparent
 3 BORDER Transparent
 0 LABEL 
 1 POSITION 11550,1000
@@ -18826,6 +18809,20 @@
 2 WIDTH 300
 2 HEIGHT 150
 1 TEXT Papp
+2 PADDING 0
+2 DRAWOUTLINE Y
+1 DISPLAY 
+2 COLOR 
+3 TEXT #000000
+3 FILL #FFFFFF
+3 BORDER Transparent
+0 LABEL 
+1 POSITION 7800,200
+2 Z 165
+2 SIZE XXXX
+2 WIDTH 3650
+2 HEIGHT 150
+1 TEXT Bottlik
 2 PADDING 0
 2 DRAWOUTLINE Y
 1 DISPLAY 

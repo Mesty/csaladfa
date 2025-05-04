@@ -45,8 +45,8 @@
 2 HIDEGRIDLINES Y
 0 GENOMAP 
 1 NAME GenoMap1
-1 ZOOM 45
-1 POSITION 6008,-20
+1 ZOOM 35
+1 POSITION 7226,291
 1 BOUNDARYRECT -14781,1504,14626,-1497
 0 GENOMAP 
 1 NAME GenoMap2
@@ -2059,7 +2059,7 @@
 4 FILL #FFFF80
 1 SEX M
 1 BIRT 
-2 DATE 1966
+2 DATE Jun 1966
 1 FAMS @fam00042@
 1 FAMC @fam00043@
 0 @ind00120@ INDI
@@ -2091,6 +2091,8 @@
 2 DISPLAY Barna Tóth
 2 GIVN Barna
 2 SURN Tóth
+1 CONTACTS @contact00126@, @contact00127@, @contact00128@, @contact00129@, @conta
+2 CONC ct00130@, @contact00131@
 1 POSITION 5800,650
 2 BOUNDARYRECT 5766,682,5834,603
 1 DISPLAY 
@@ -2105,6 +2107,7 @@
 1 DEAT Y
 2 DATE 20 May 2003
 1 ISDEAD Y
+1 OCCUPATIONS @occu00061@, @occu00062@
 1 MEDICALHISTORY @med00007@
 1 FAMS @fam00043@
 0 @ind00122@ INDI
@@ -11256,7 +11259,8 @@
 2 TOP 
 3 LEFT 5800,50
 3 RIGHT 8350,50
-1 RELATION Widowed
+1 RELATION SeparationLegal
+1 UNIONS @marr00020@
 1 HUSB @ind00121@
 1 WIFE @ind00122@
 1 CHIL @ind00123@
@@ -13434,6 +13438,12 @@
 2 _XREF @place00113@
 1 NOTE Iskola udvarán
 2 CONT 
+0 @marr00020@ Marriage
+1 TYPE ReligiousCivil
+1 ISANNULLED Y
+1 DIVORCE 
+2 DATE 1976
+2 REQUESTEDBY Wife
 0 PEDIGREELINK 
 1 PEDIGREELINK Parent
 1 FAMILY @fam00001@
@@ -19037,6 +19047,12 @@
 1 LONGITUDE 19.10427869934341
 0 @place00186@ PLAC
 1 NAME idősek otthona
+0 @place00187@ PLAC
+1 NAME Lipótmező
+0 @place00188@ PLAC
+1 NAME Nagykőrös
+0 @place00189@ PLAC
+1 NAME Szentendre
 0 @edu00001@ Education
 1 PROGRAM Villamosmérnök
 1 INSTITUTION Budapesti Műszaki és Gazdaságtudományi Egyetem
@@ -19717,6 +19733,9 @@
 1 DIAGNOSIS májcirózis
 0 @med00007@ Medical
 1 DIAGNOSIS alkoholizmus
+1 NOTE Bekerült a Lipótmezőre a sárga házba, azt hitték, hogy meghalt, mert b
+2 CONC evitték oda, és nem volt nála semmilyen irat.
+2 CONT 
 0 @occu00001@ Occupation
 1 TITL Fejlesztőmérnök
 1 COMPANY Prolan Irányítástechnikai Zrt.
@@ -20217,6 +20236,16 @@
 1 PLAC Miskolc (Miskolc, Magyarország, Borsod-Abaúj-Zemplén, Magyarország)
 2 _XREF @place00168@
 1 NOTE Vasgyár
+0 @occu00061@ Occupation
+1 TITL testőr
+1 INDUSTRY PublicAdministration
+1 WORKTYPE Full
+0 @occu00062@ Occupation
+1 TITL révész
+1 INDUSTRY Transportation
+1 PLAC Szentendre
+2 _XREF @place00189@
+1 WORKTYPE Full
 0 @contact00001@ Contact
 1 MOBILE +36209519180
 1 EMAIL adam.mester87487@gmail.com
@@ -20734,6 +20763,28 @@
 0 @contact00125@ Contact
 1 PLAC idősek otthona
 2 _XREF @place00186@
+0 @contact00126@ Contact
+1 PLAC Bükkábrány (Bükkábrány, Borsod-Abaúj-Zemplén, 3422, Magyarország)
+2 _XREF @place00001@
+1 TYPE PrimaryResidence
+0 @contact00127@ Contact
+1 PLAC Csizmadi István (Hunyadi János utca 18., Leányfalu, Pest, 2016, Magyar
+2 CONC ország)
+2 _XREF @place00089@
+1 TYPE PrimaryResidence
+0 @contact00128@ Contact
+1 PLAC Bükkábrány (Bükkábrány, Borsod-Abaúj-Zemplén, 3422, Magyarország)
+2 _XREF @place00001@
+0 @contact00129@ Contact
+1 PLAC Lipótmező
+2 _XREF @place00187@
+0 @contact00130@ Contact
+1 PLAC Csizmadi István (Hunyadi János utca 18., Leányfalu, Pest, 2016, Magyar
+2 CONC ország)
+2 _XREF @place00089@
+0 @contact00131@ Contact
+1 PLAC Nagykőrös
+2 _XREF @place00188@
 0 @source00001@ SOUR
 0 @twin00001@ Twin
 1 FAMILY @fam00046@
@@ -20882,10 +20933,10 @@
 3 FILL #FFFFFF
 3 BORDER Transparent
 0 LABEL 
-1 POSITION 6050,250
+1 POSITION 5855,250
 2 Z 165
 2 SIZE XXXX
-2 WIDTH 2250
+2 WIDTH 2445
 2 HEIGHT 150
 1 TEXT Tóth
 2 PADDING 0
